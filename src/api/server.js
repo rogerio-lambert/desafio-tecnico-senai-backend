@@ -13,7 +13,7 @@ const io = require('socket.io')(server, {
   }
 });
 
-const socket = require('./sockets/votesSocket');
+const socket = require('../sockets/socket');
 socket(io);
 
 
